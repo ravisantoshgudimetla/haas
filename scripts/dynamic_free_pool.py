@@ -58,7 +58,7 @@ def release_nodes(haas_url, haas_username, haas_password, statusfile, non_persis
 			#Power save mode on :)	
 
 def compare_projects(project_in_file,project_in_haas):
-	"""Boolean Function to check if the projects are same." 
+	"""Boolean Function to check if the projects are same.""" 
 	if project_in_file == project_in_haas:
 		return True
 	else:
